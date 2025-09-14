@@ -1,0 +1,25 @@
+{
+  "name": "pwsamples16aug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test launchContexts",
+    "allTest": "npx playwright test",
+    "uiTest": "npx playwright test --ui",
+    "htmlReport": "npx playwright test --reporter=html",
+    "chrome": "npx playwright test --project chromium",
+    "webkit": "npx playwright test --projects webkit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.54.2",
+    "@types/node": "^24.3.0"
+  },
+  "dependencies": {
+    "@axe-core/playwright": "^4.10.2"
+  }
+}
