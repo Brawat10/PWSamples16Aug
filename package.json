@@ -10,7 +10,8 @@
     "htmlReport": "npx playwright test --reporter=html",
     "chrome": "npx playwright test --project chromium",
     "webkit": "npx playwright test --projects webkit",
-    "SmokeTest": "npx playwright test --grep @Smoke"
+    "SmokeTest": "npx playwright test --grep @Smoke",
+    "SanityTest": "npx playwright test --grep @Sanity"
 
   },
   "keywords": [],
